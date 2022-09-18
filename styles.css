@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     background-image: url(./assets/Fundo.jpg);
     background-position: top center;
@@ -45,16 +49,12 @@ header div img {
     border-radius: 50%;
 }
 
-main * {
+main {
     max-width: 580px;
     width: 90%;
     margin: 32px auto;
     display: grid;
     gap: 24px;
-}
-
-ul {
-    list-style: none;
 }
 
 section {
@@ -83,6 +83,7 @@ section p {
 section ul {
     margin-top: 24px;
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
